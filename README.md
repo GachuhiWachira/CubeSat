@@ -1,2 +1,2 @@
 # CubeSat
-Chassis Fusion 360 Designs
+Outer Casing Designs from Fusion 360
