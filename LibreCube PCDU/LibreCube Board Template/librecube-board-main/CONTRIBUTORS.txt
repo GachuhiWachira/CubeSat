@@ -1,0 +1,4 @@
+Jan Maass <jan.maass@librecube.org>
+Artur Scholz <artur.scholz@librecube.org>
+Ilias Daradimos <ilias@libre.space>
+Filip Geib <filip9geib@gmail.com>

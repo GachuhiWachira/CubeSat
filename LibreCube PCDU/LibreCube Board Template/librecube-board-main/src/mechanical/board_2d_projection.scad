@@ -1,0 +1,1 @@
+projection(cut=true) import("board.stl");
