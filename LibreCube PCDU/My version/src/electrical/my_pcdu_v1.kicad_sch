@@ -16137,6 +16137,50 @@
 		)
 		(uuid "a08a7913-8c54-448d-a930-bab2f421fbc5")
 	)
+	(label "VIN"
+		(at 349.25 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c30cfaa-1690-48a3-8c01-cb51e6e0b0d7")
+	)
+	(label "VIN"
+		(at 349.25 196.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "20c50ab5-16c9-40a5-bcf1-da0e1bb25b9e")
+	)
+	(label "VOUT"
+		(at 384.81 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a04ae35-ece2-4f67-999a-d670119481e3")
+	)
+	(label "VOUT"
+		(at 384.81 196.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7ecf2d9-f229-4f5a-ae08-e76ccb491576")
+	)
 	(label "Semi_Regulated_Bus"
 		(at 472.44 86.36 0)
 		(fields_autoplaced yes)
