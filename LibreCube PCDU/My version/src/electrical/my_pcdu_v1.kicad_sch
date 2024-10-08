@@ -10033,12 +10033,6 @@
 		(uuid "014f7513-273e-4aba-befd-f6fb8f06339f")
 	)
 	(junction
-		(at 234.95 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "071881fb-a215-4185-b243-355f430c6323")
-	)
-	(junction
 		(at 318.77 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10897,6 +10891,12 @@
 		(uuid "cfd53bcc-28af-4e29-bc11-1fb589c1e930")
 	)
 	(junction
+		(at 243.84 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d73a7d8e-8ed1-4109-b237-10de4dea58e4")
+	)
+	(junction
 		(at 129.54 445.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11203,6 +11203,10 @@
 	(no_connect
 		(at 308.61 369.57)
 		(uuid "7f074bd1-1313-45d0-be99-48987a175094")
+	)
+	(no_connect
+		(at 363.22 189.23)
+		(uuid "801e1429-7fae-4f73-8c40-701b37fd51ce")
 	)
 	(no_connect
 		(at 321.31 351.79)
@@ -11726,7 +11730,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 76.2) (xy 220.98 76.2)
+			(xy 234.95 76.2) (xy 229.87 76.2)
 		)
 		(stroke
 			(width 0)
@@ -12256,7 +12260,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 86.36) (xy 248.92 86.36)
+			(xy 238.76 86.36) (xy 243.84 86.36)
 		)
 		(stroke
 			(width 0)
@@ -12926,6 +12930,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 76.2) (xy 220.98 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b315ae-5147-4ae0-867f-9751cc8b8e78")
+	)
+	(wire
+		(pts
 			(xy 83.82 514.35) (xy 83.82 474.98)
 		)
 		(stroke
@@ -13163,6 +13177,16 @@
 			(type default)
 		)
 		(uuid "62144642-d469-48af-878f-7844d30834f0")
+	)
+	(wire
+		(pts
+			(xy 243.84 86.36) (xy 248.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f2389a-d057-4f3a-98a3-3cde0d8415fd")
 	)
 	(wire
 		(pts
@@ -19199,7 +19223,8 @@
 	)
 	(symbol
 		(lib_id "TPS61023DRLR:TPS61023DRLR")
-		(at 217.17 91.44 0)
+		(at 226.06 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19207,7 +19232,7 @@
 		(dnp no)
 		(uuid "1557c6cc-ffd7-4a56-99f9-ecf562619712")
 		(property "Reference" "U9"
-			(at 217.17 91.44 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19215,7 +19240,7 @@
 			)
 		)
 		(property "Value" "TPS61023DRLR"
-			(at 217.17 100.584 0)
+			(at 226.06 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19223,7 +19248,7 @@
 			)
 		)
 		(property "Footprint" "TPS61023DRLR:DRL0006A"
-			(at 217.17 91.44 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19233,7 +19258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 91.44 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19242,7 +19267,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 91.44 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19251,7 +19276,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 217.17 91.44 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19261,7 +19286,7 @@
 			)
 		)
 		(property "VENDOR" "Digikey"
-			(at 217.17 91.44 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19271,7 +19296,7 @@
 			)
 		)
 		(property "Description_1" "\n3.7-A boost converter with 0.5-V ultra-low input voltage\n"
-			(at 217.17 91.44 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19281,7 +19306,7 @@
 			)
 		)
 		(property "Package" "SOT-5X3-6 Texas Instruments"
-			(at 217.17 91.44 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19291,7 +19316,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 217.17 91.44 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19301,7 +19326,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TPS61023DRLR/Texas+Instruments/view-part/?ref=eda"
-			(at 217.17 91.44 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19311,7 +19336,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS61023DRLR/Texas+Instruments/view-part/?ref=snap"
-			(at 217.17 91.44 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19321,7 +19346,7 @@
 			)
 		)
 		(property "COST" "$0.92"
-			(at 217.17 91.44 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19331,7 +19356,7 @@
 			)
 		)
 		(property "MP" "TPS61023DRLR"
-			(at 217.17 91.44 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19341,7 +19366,7 @@
 			)
 		)
 		(property "VENDOR_PN" "296-TPS61023DRLRCT-ND"
-			(at 217.17 91.44 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19351,7 +19376,7 @@
 			)
 		)
 		(property "PARTNUMBER" "TPS61023DRL"
-			(at 217.17 91.44 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19361,7 +19386,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 217.17 91.44 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19371,7 +19396,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
-			(at 217.17 91.44 0)
+			(at 226.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21574,7 +21599,8 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 217.17 76.2 90)
+		(at 226.06 76.2 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21582,7 +21608,7 @@
 		(dnp no)
 		(uuid "384730fb-6c3d-4e43-b70f-98de1da41049")
 		(property "Reference" "L1"
-			(at 217.17 74.168 90)
+			(at 226.06 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21590,7 +21616,7 @@
 			)
 		)
 		(property "Value" "1uH"
-			(at 217.17 77.216 90)
+			(at 226.06 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21598,7 +21624,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4040-XXX"
-			(at 217.17 76.2 0)
+			(at 226.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21607,7 +21633,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 76.2 0)
+			(at 226.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21616,7 +21642,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 217.17 76.2 0)
+			(at 226.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23385,7 +23411,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 264.16 96.52 0)
+		(at 179.07 96.52 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23393,7 +23420,7 @@
 		(dnp no)
 		(uuid "589c2216-e943-4281-aec8-b6aaf3b7c197")
 		(property "Reference" "C23"
-			(at 259.08 93.218 0)
+			(at 184.15 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23402,7 +23429,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 258.318 99.822 0)
+			(at 184.912 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23411,7 +23438,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 265.1252 100.33 0)
+			(at 178.1048 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23420,7 +23447,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 96.52 0)
+			(at 179.07 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23429,7 +23456,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 264.16 96.52 0)
+			(at 179.07 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26310,7 +26337,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 191.77 96.52 0)
+		(at 251.46 96.52 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26318,7 +26346,7 @@
 		(dnp no)
 		(uuid "876e385a-bf33-46df-a6ff-f3a982ec629d")
 		(property "Reference" "C19"
-			(at 186.69 93.218 0)
+			(at 256.54 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26327,7 +26355,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 185.928 99.822 0)
+			(at 257.302 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26336,7 +26364,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 192.7352 100.33 0)
+			(at 250.4948 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26345,7 +26373,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 96.52 0)
+			(at 251.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26354,7 +26382,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 191.77 96.52 0)
+			(at 251.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30289,7 +30317,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 255.27 96.52 0)
+		(at 187.96 96.52 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30297,7 +30326,7 @@
 		(dnp no)
 		(uuid "b2633841-bd65-4072-9337-124152e88f9a")
 		(property "Reference" "C21"
-			(at 250.444 93.218 0)
+			(at 192.786 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30306,7 +30335,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 249.428 99.822 0)
+			(at 193.802 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30315,7 +30344,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 256.2352 100.33 0)
+			(at 186.9948 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30324,7 +30353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 96.52 0)
+			(at 187.96 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30333,7 +30362,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 255.27 96.52 0)
+			(at 187.96 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31628,7 +31657,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 182.88 96.52 0)
+		(at 260.35 96.52 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31636,7 +31666,7 @@
 		(dnp no)
 		(uuid "c4ba1aa4-2db4-4d24-aa3c-b41f19036171")
 		(property "Reference" "C17"
-			(at 179.07 93.218 0)
+			(at 264.16 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31645,7 +31675,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 177.038 99.822 0)
+			(at 266.192 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31654,7 +31684,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 183.8452 100.33 0)
+			(at 259.3848 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31663,7 +31693,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 96.52 0)
+			(at 260.35 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31672,7 +31702,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 182.88 96.52 0)
+			(at 260.35 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32931,7 +32961,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 234.95 102.87 0)
+		(at 208.28 102.87 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32939,7 +32970,7 @@
 		(dnp no)
 		(uuid "dd3e040b-a632-4fe7-b5b7-81af432148c0")
 		(property "Reference" "R9"
-			(at 232.156 100.838 0)
+			(at 211.074 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32947,7 +32978,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 238.76 104.902 0)
+			(at 204.47 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32955,7 +32986,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 233.172 102.87 90)
+			(at 210.058 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32964,7 +32995,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 102.87 0)
+			(at 208.28 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32973,7 +33004,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 234.95 102.87 0)
+			(at 208.28 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33464,7 +33495,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 242.57 96.52 90)
+		(at 200.66 96.52 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33472,7 +33504,7 @@
 		(dnp no)
 		(uuid "ea137aa9-be37-4c6d-b117-3f8c7a3b071b")
 		(property "Reference" "R11"
-			(at 242.57 94.234 90)
+			(at 200.66 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33480,7 +33512,7 @@
 			)
 		)
 		(property "Value" "750k"
-			(at 242.57 99.06 90)
+			(at 200.66 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33488,7 +33520,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 242.57 98.298 90)
+			(at 200.66 98.298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33497,7 +33529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 96.52 0)
+			(at 200.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33506,7 +33538,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 242.57 96.52 0)
+			(at 200.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
